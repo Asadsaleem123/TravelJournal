@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+{
+    margin:0;
+}
+img{
+    width:100%;
+    border-radius: 5px;
+}
+* {
+    box-sizing: border-box;
+}
+.container{
+    
+}
+.nav--container{
+    background: #F55A5A;
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 0.5em 0;
+}
+.flex--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px
+}
+.flex--container h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14.4608px;
+line-height: 18px;
+letter-spacing: -0.075em;
+
+color: #FFFFFF;
+}
+.card{
+   display: flex; 
+   gap:10px
+}
+.flex--child--first{
+    width: 25%;
+    height:150px;
+}
+.flex--child--second{
+    width: 70%;
+    height: 150px;
+    padding-top:1em;
+}
+.main--container{
+    padding: 1em;
+}
+.flex--child--second--container{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-bottom:0.2em;
+}
+a{
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.city{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+
+color: #2B283A;
+}
+.details--container h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+color: #2B283A;
+margin-top:0.5em;
+}
+.details--container h1{
+    margin-bottom:0.3em;
+}
+.details--container p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+margin-top:0.7em;
+/* or 15px */
+
+
+color: #2B283A;
+}
+h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+
+}
